@@ -1,0 +1,35 @@
+{
+  "name": "miaoxing/m",
+  "type": "miaoxing-plugin",
+  "description": "Miaoxing mobile plugin",
+  "authors": [
+    {
+      "name": "twinh",
+      "email": "twinhuang@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Miaoxing\\M\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MiaoxingTest\\M\\": "tests"
+    }
+  },
+  "require": {
+    "miaoxing/plugin": "^0.4.7"
+  },
+  "require-dev": {
+    "miaoxing/dev": "^7.0.1"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "require-ci": {
+      "miaoxing/dev": "miaoxing/dev as 6.x-dev",
+      "miaoxing/phpstan-miaoxing": "miaoxing/phpstan-miaoxing as 0.1.x-dev"
+    }
+  }
+}
