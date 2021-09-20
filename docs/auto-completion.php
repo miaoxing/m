@@ -3,8 +3,7 @@
 /**
 
  */
-class AutoCompletion
-{
+class AutoCompletion {
 }
 
 /**
@@ -12,6 +11,6 @@ class AutoCompletion
  */
 function wei()
 {
-    return new AutoCompletion();
+    return new AutoCompletion;
 }
 
