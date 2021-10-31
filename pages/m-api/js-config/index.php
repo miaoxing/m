@@ -2,7 +2,7 @@
 
 use Miaoxing\Plugin\BaseController;
 
-return new class extends BaseController {
+return new class () extends BaseController {
     protected $controllerAuth = false;
 
     public function get()
@@ -10,7 +10,7 @@ return new class extends BaseController {
         return suc([
             'data' => [
                 // TODO
-                'theme' => (object)[],
+                'theme' => (object) [],
             ],
         ]);
     }
