@@ -1,3 +1,14 @@
+## [0.1.11](https://github.com/miaoxing/m/compare/v0.1.10...v0.1.11) (2022-08-02)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `8.1.2` to `8.1.3`
+* **@miaoxing/plugin:** upgrade from `0.8.5` to `0.9.0`
+
 ## [0.1.10](https://github.com/miaoxing/m/compare/v0.1.9...v0.1.10) (2022-07-02)
 
 
