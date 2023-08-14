@@ -1,8 +1,8 @@
 <?php
 
-use Miaoxing\Plugin\BaseController;
+use Miaoxing\Plugin\BasePage;
 
-return new class () extends BaseController {
+return new class () extends BasePage {
     protected $controllerAuth = false;
 
     public function get()
