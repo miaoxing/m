@@ -19,10 +19,10 @@
     }
   },
   "require": {
-    "miaoxing/plugin": "^0.15.0"
+    "miaoxing/plugin": "^0.15.1"
   },
   "require-dev": {
-    "miaoxing/dev": "^9.1.1"
+    "miaoxing/dev": "^9.1.2"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -34,7 +34,7 @@
   },
   "extra": {
     "require-ci": {
-      "miaoxing/dev": "miaoxing/dev as 8.x-dev",
+      "miaoxing/dev": "miaoxing/dev as 9.x-dev",
       "miaoxing/phpstan-miaoxing": "miaoxing/phpstan-miaoxing as 3.x-dev"
     }
   }
